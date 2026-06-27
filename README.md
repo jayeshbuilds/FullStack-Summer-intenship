@@ -24,7 +24,7 @@ A secure authentication system that allows users to register and log in safely.
 * HTML
 * CSS
 * JavaScript
-* MySQL
+
 
 ---
 
@@ -47,7 +47,7 @@ A web-based application developed to manage employee records efficiently using a
 * HTML
 * CSS
 * JavaScript
-* MySQL
+* JSON File (fs module)
 
 ---
 
