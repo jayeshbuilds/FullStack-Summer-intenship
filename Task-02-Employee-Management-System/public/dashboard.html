@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Dashboard</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h2>Employee Management System</h2>
+<button id="logoutBtn">Logout</button>
+
+<hr>
+
+<h3 id="formTitle">Add Employee</h3>
+<form id="empForm">
+  <input type="hidden" id="empId">
+
+  Name: <input type="text" id="name"><br><br>
+  Email: <input type="text" id="email"><br><br>
+  Department: <input type="text" id="department"><br><br>
+  Position: <input type="text" id="position"><br><br>
+  Salary: <input type="number" id="salary"><br><br>
+
+  <button type="submit" id="submitBtn">Add Employee</button>
+  <button type="button" id="cancelBtn" style="display:none;">Cancel</button>
+</form>
+
+<p id="formError" style="color:red;"></p>
+
+<hr>
+
+<h3>All Employees</h3>
+<p id="loadingMsg"></p>
+
+<table border="1" cellpadding="6">
+  <tr>
+    <th>ID</th>
+    <th>Name</th>
+    <th>Email</th>
+    <th>Department</th>
+    <th>Position</th>
+    <th>Salary</th>
+    <th>Action</th>
+  </tr>
+  <tbody id="tableBody">
+  </tbody>
+</table>
+
+<script src="script.js"></script>
+</body>
+</html>

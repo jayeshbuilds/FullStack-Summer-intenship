@@ -1,0 +1,36 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 30px;
+}
+
+.login-box {
+  width: 300px;
+  margin: 80px auto;
+  border: 1px solid #999;
+  padding: 20px;
+  text-align: center;
+}
+
+input {
+  padding: 5px;
+  width: 200px;
+}
+
+button {
+  padding: 6px 14px;
+  margin-top: 5px;
+  cursor: pointer;
+}
+
+table {
+  margin-top: 10px;
+  border-collapse: collapse;
+}
+
+th {
+  background-color: #ddd;
+}
+
+#logoutBtn {
+  float: right;
+}
