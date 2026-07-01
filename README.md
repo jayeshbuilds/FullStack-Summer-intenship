@@ -49,50 +49,6 @@ A web-based application developed to manage employee records efficiently using a
 * JavaScript
 * JSON File (fs module)
 
----
-
-## Task 3 – Local Store E-Commerce Platform
-
-### Description
-
-A platform designed to help local stores showcase products and provide a simple online shopping experience.
-
-### Features
-
-* Product Listing
-* Product Details
-* Shopping Cart
-* Order Management
-* Responsive Design
-
-### Technologies Used
-
-* HTML
-* CSS
-* JavaScript
-* MySQL
-
----
-
-## Task 4 – Real-Time Chat Application
-
-### Description
-
-A chat application that enables users to communicate instantly through a real-time messaging interface.
-
-### Features
-
-* Real-Time Messaging
-* User Interaction
-* Chat Interface
-* Instant Message Updates
-
-### Technologies Used
-
-* HTML
-* CSS
-* JavaScript
-* MySQL
 
 ---
 
